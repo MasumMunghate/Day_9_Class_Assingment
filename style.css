@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.change_Div{
+    height: 140px;
+    background-color: lightblue;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #DFD7BF;
+}
+.selectors{
+    margin-bottom: 1.5rem;
+}
+label{
+    font-size: 1.3rem;
+}
+select{
+    width: 10%;
+   border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+select , option{
+    font-family: cursive;
+}
